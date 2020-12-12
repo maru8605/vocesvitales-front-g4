@@ -1,12 +1,15 @@
 import React from 'react';
-import Logo from '../img/VocesVitalesLogo.png';
 import '../css/components/HeaderLogo.css';
+
+import Logo from '../img/VocesVitalesLogo.png';
+
+
 
 
 const HeaderLogo =()=>{
    return(
-       <div classname="headerlogo">
-           <img src={Logo} classname='logo-img'  />
+       <div className="headerlogo">
+           <img src={Logo} className='logo-img'  />
        </div>
    )
 }

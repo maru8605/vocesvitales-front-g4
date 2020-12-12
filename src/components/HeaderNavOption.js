@@ -1,9 +1,10 @@
 import React from 'react';
+import '../css/components/HeaderNavOption.css';
 
 
 const HeaderNavOption =(props)=>{
     return(
-       <ul title={props.title}>
+       <ul title={props.title} >
            {props.title}
            <li option1={props.option1}>
               <a href={props.link1}>{props.option1}</a>

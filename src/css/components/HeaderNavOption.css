@@ -1,0 +1,26 @@
+ul{
+    width: 35vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+li{
+    list-style: none;
+    display: none;
+  }
+  
+  a{
+    color: #000;
+    text-decoration: none;
+  }
+
+ @media (max-width: 650px) {
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+    padding-bottom: 5px;
+    }
+  } 

@@ -1,9 +1,10 @@
 import React from 'react';
 import HeaderNavOption from './HeaderNavOption';
+import '../css/components/HeaderNav.css';
 
 const HeaderNav =()=>{
     return(
-        <nav classname=''>
+        <nav className='header-nav'>
           <HeaderNavOption
           title='Quienes somos'
           option1='VVGP'
@@ -40,6 +41,9 @@ const HeaderNav =()=>{
           link4='https://www.facebook.com/VocesVitalesAr/'
           option5='Sumate'
           link5='https://www.facebook.com/VocesVitalesAr/'
+          />
+          <HeaderNavOption
+          title='contacto'
           />
         </nav>
     )
