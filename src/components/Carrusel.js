@@ -6,13 +6,13 @@ const Carrusel = () =>{
     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
             <div className="carousel-item active">
-                <img className="d-block w-100" src="..." alt="First slide"/>
+                <img className="d-block w-100 p-5" src="imgs/replica1.png" alt="First slide"/>
             </div>
             <div className="carousel-item">
-                <img className="d-block w-100" src="..." alt="Second slide"/>
+                <img className="d-block w-100 p-5" src="imgs/replica3.png" alt="Second slide"/>
             </div>
             <div className="carousel-item">
-                <img className="d-block w-100" src="..." alt="Third slide"/>
+                <img className="d-block w-100 p-5" src="https://media.discordapp.net/attachments/783341763124920360/787332073185738772/slider.png?width=970&height=409" alt="Third slide"/>
             </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
