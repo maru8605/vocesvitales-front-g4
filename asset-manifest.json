@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/vocesvitales-front-g4/static/css/main.4ab1a4f0.chunk.css",
+    "main.js": "/vocesvitales-front-g4/static/js/main.10351ba9.chunk.js",
+    "main.js.map": "/vocesvitales-front-g4/static/js/main.10351ba9.chunk.js.map",
+    "runtime-main.js": "/vocesvitales-front-g4/static/js/runtime-main.e514cb50.js",
+    "runtime-main.js.map": "/vocesvitales-front-g4/static/js/runtime-main.e514cb50.js.map",
+    "static/js/2.082e1caa.chunk.js": "/vocesvitales-front-g4/static/js/2.082e1caa.chunk.js",
+    "static/js/2.082e1caa.chunk.js.map": "/vocesvitales-front-g4/static/js/2.082e1caa.chunk.js.map",
+    "static/js/3.f62d8700.chunk.js": "/vocesvitales-front-g4/static/js/3.f62d8700.chunk.js",
+    "static/js/3.f62d8700.chunk.js.map": "/vocesvitales-front-g4/static/js/3.f62d8700.chunk.js.map",
+    "index.html": "/vocesvitales-front-g4/index.html",
+    "static/css/main.4ab1a4f0.chunk.css.map": "/vocesvitales-front-g4/static/css/main.4ab1a4f0.chunk.css.map",
+    "static/js/2.082e1caa.chunk.js.LICENSE.txt": "/vocesvitales-front-g4/static/js/2.082e1caa.chunk.js.LICENSE.txt",
+    "static/media/VocesVitalesLogo.39d764c3.png": "/vocesvitales-front-g4/static/media/VocesVitalesLogo.39d764c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e514cb50.js",
+    "static/js/2.082e1caa.chunk.js",
+    "static/css/main.4ab1a4f0.chunk.css",
+    "static/js/main.10351ba9.chunk.js"
+  ]
+}
