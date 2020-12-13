@@ -6,7 +6,8 @@ const HeaderNavOption =(props)=>{
     return(
        <ul title={props.title} className='ul' >
            {props.title}
-           <li option1={props.option1}>
+           <div className='prueba2'>
+           <li option1={props.option1} className='prueba'>
               <a href={props.link1}>{props.option1}</a>
            </li >
            <li option2={props.option2}>
@@ -21,6 +22,7 @@ const HeaderNavOption =(props)=>{
            <li option5={props.option5}>
                <a href={props.link5}>{props.option5}</a>
            </li>
+           </div>
        </ul>
     )
 }
