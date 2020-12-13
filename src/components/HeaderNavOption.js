@@ -1,11 +1,14 @@
 import React from 'react';
 import '../css/components/HeaderNavOption.css';
-
+import Flecha from '../img/flecha-descendente.png';
 
 const HeaderNavOption =(props)=>{
     return(
        <ul title={props.title} className='ul' >
            {props.title}
+           {/* <div className='navbar-logo'>
+               <img src={Flecha}/>
+           </div> */}
            <div className='prueba2'>
            <li option1={props.option1} className='prueba'>
               <a href={props.link1}>{props.option1}</a>
