@@ -1,5 +1,7 @@
 .headerlogo{  
-        width: 150px;
+  width: 180px;
+  margin-right: 40px;
+  margin-left: 10%;
         
 }
 
@@ -12,14 +14,14 @@
   }
 
 .logo-img{
-    width: 100%;
+    width: 173px;
     height: 100%;
     max-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 @media (max-width: 650px) {

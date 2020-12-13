@@ -1,5 +1,5 @@
-ul{
-    width: 35vw;
+.ul{
+    padding-left: 15px;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -11,7 +11,7 @@ li{
   }
   
   a{
-    color: #000;
+    color: #3f3d3a;
     text-decoration: none;
   }
 

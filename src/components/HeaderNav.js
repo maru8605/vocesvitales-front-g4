@@ -6,7 +6,7 @@ const HeaderNav =()=>{
     return(
         <nav className='header-nav'>
           <HeaderNavOption
-          title='Quienes somos'
+          title='QUIENES SOMOS'
           option1='VVGP'
           link1='https://www.vocesvitales.org.ar/#vvgp'
           option2='Argentina y cono sur'
@@ -19,7 +19,7 @@ const HeaderNav =()=>{
           link5='https://www.vocesvitales.org.ar/equipo/'
           />
           <HeaderNavOption
-          title='programas institucionales'
+          title='PROGRAMAS INSTITUCIONALES '
           option1='Programas a medida'
           link1='https://www.vocesvitales.org.ar/esquema/#programa'
           option2='Modelo de liderazgo'
@@ -30,7 +30,7 @@ const HeaderNav =()=>{
           link4='https://www.vocesvitales.org.ar/reportes/'
           />
           <HeaderNavOption
-          title='Sumate a la red'
+          title='SUMATE A LA RED'
           option1='Doná'
           link1='https://www.vocesvitales.org.ar/#contacto'
           option2='Alumni VVA'
@@ -43,7 +43,7 @@ const HeaderNav =()=>{
           link5='https://www.facebook.com/VocesVitalesAr/'
           />
           <HeaderNavOption
-          title='contacto'
+          title='CONTACTO'
           />
         </nav>
     )
