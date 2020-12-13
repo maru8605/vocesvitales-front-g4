@@ -1,13 +1,22 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Carrusel from './components/Carrusel'
+import Modal from './components/Modal';
+import Form from './components/Form'
+import './form.css';
+
 
 
 function App() {
-  return (
-    <div className="App">
+  return <>
+    <Router>
       <Carrusel/>
-    </div>
-  );
+      <Switch>
+        <Route path='/form' component={Form}/> 
+        <Modal/>
+      </Switch>           
+    </Router>
+  </>
 }
 
 export default App;
