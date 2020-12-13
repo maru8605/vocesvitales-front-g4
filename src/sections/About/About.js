@@ -48,9 +48,7 @@ function About() {
 
 				<AboutArticle
 					title="PROGRAMA DE MENTORIAS"
-					description="Para que las mujeres puedan desarrollar planes estratégicos, contar
-          sus historias y acceder a nuevas oportunidades, dando paso a su
-          potencial como catalizadoras del progreso social."
+					description="El programa de mentorías de Voces Vitales permite conectar mujeres que quieren dar un salto en su trayectoria profesional, con mujeres líderes destacadas que buscan inspirar con su experiencia."
 					src="/img/mentorias.png"
 				/>
 			</div>
