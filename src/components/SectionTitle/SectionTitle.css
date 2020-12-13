@@ -1,0 +1,19 @@
+.line {
+	width: 50px;
+	height: 3px;
+	background-color: #2a2a2a;
+	margin: 0 auto 30px;
+}
+
+.line--color {
+	background-color: #53a59c;
+}
+
+.section__h2 {
+	font-family: 'Verdana', Helvetica, Arial, Lucida, sans-serif;
+	font-size: 42px;
+	color: #3f3d3a;
+	line-height: 1.3em;
+	text-align: center;
+	font-weight: normal;
+}
