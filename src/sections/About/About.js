@@ -1,13 +1,13 @@
 import React from 'react'
 import AboutArticle from '../../components/AboutArticle/AboutArticle'
+import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import './About.css'
 
 function About() {
 	return (
 		<section className="about">
 			<div className="about__header">
-				<h2>VOCES VITALES ARGENTINA</h2>
-				<div className="line"></div>
+				<SectionTitle title="VOCES VITALES ARGENTINA" />
 				<p className="description">
 					VOCES VITALES ES LA ORGANIZACIÓN QUE IDENTIFICA, CAPACITA Y EMPODERA A
 					MUJERES LÍDERES EMERGENTES Y ESTABLECIDAS EN TODO EL MUNDO,

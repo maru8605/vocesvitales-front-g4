@@ -1,0 +1,39 @@
+.partnership {
+	background-color: #d2d0cd;
+	padding: 60px 0;
+	margin: 60px auto 0;
+	text-align: center;
+}
+
+.partnership__info {
+	font-family: 'Verdana', Helvetica, Arial, Lucida, sans-serif;
+	font-size: 15px;
+	letter-spacing: 3px;
+	line-height: 1.8em;
+	max-width: 700px;
+	margin: 15px auto 0;
+	padding: 0 15px 30px;
+}
+
+.partnership__link {
+	color: #53a59c;
+	font-family: 'Verdana', Helvetica, Arial, Lucida, sans-serif;
+	font-size: 15px;
+	letter-spacing: 3px;
+	line-height: 1.8em;
+}
+
+.bottom__triangle {
+	display: none;
+	width: 0;
+	height: 0;
+	border-left: 50vw solid transparent;
+	border-right: 50vw solid transparent;
+	border-top: 8vw solid #d2d0cd;
+}
+
+@media (min-width: 1200px) {
+	.bottom__triangle {
+		display: block;
+	}
+}
