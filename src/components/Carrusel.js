@@ -1,9 +1,8 @@
 import React from 'react'
 
-
 const Carrusel = () =>{
     return(
-    <div className='container'>
+    <div className='container carrusel'>
         <div className='row'>
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">

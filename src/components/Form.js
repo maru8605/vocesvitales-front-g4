@@ -17,9 +17,10 @@ const Form = ({onChange})=>{
     const onCommentsChange= event => {setComments(event.target.value)}
 
     return <>
+    <div className='body-form'>
     <div className="form-banner">
     <header className="header">
-       <h1 id="title" className="text-center">¿Querés inspirar mujeres y liderar el cambio?</h1>
+       <h1 id="title" className="text-center title-form">¿Querés inspirar mujeres y liderar el cambio?</h1>
        <p id="description" className="description text-center"> Sumate como mentora completando este formulario </p>
        <p className="description-mentoreo text-center">El mentoreo es uno de los regalos más poderosos que una mujer puede dar a otra, pues mejora tanto el liderazgo, como el crecimiento personal y profesional de ambas. Es un intercambio donde las mentoras aprecian que se les ofrezca la oportunidad de retribuir y compartir su experiencia, lo que, a su vez, ayuda a la aprendiz a crecer, a dar el siguiente gran paso más allá de su zona de confort. </p>
     </header>
@@ -60,6 +61,7 @@ const Form = ({onChange})=>{
         <button type="submit" data-toggle="modal" data-target="#myModal" id="submit" className="submit-button">Enviar</button>
       </div>
     </form>
+  </div>
   </div>
   <Modal/>
     
